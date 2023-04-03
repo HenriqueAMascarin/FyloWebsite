@@ -45,5 +45,18 @@ export const PrincipalSectionStyle = styled.section`
         
     }
 
+    @media screen and (min-width: ${variablesStyle.others.screen}){
+        ${MarginCapsule}{
+            .flexPrincipal{
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                justify-content: center;
 
+                .imgPersons, h1{
+                    margin: 0;
+                }
+            }
+        }
+    }
 `;

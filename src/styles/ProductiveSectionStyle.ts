@@ -109,4 +109,9 @@ export const ProductiveSectionStyle = styled.section`
             }
         }
     }
+
+    @media screen and (min-width: ${variablesStyle.others.screen}){
+        
+        
+    }
 `;

@@ -13,7 +13,7 @@ export const HeaderStyle = styled.header`
 
             .logoFylo svg{
                 display: inline-block;
-                width: 90px;
+                width: clamp(90px, 15vw, 140px);
             }
 
             nav{
@@ -31,10 +31,11 @@ export const HeaderStyle = styled.header`
                     a{
                         text-decoration: none;
                         color: ${variablesStyle.colors.darkenBlue};
-                        font-size: clamp(1em, 7vw, 1.1em);
+                        font-size: clamp(1em, 7vw, 1.05em);
                     }
                 }   
             }
         }
     }
+    
 `;

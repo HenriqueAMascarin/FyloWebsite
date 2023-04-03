@@ -10,5 +10,6 @@ export const variablesStyle =
     others:{
         boxShadowButton: '0 1px 3px rgba(0,0,0, .3)',
         maxWidthText: '450px',
+        screen: '1024px',
     }
 }
