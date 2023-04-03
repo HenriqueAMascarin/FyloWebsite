@@ -4,7 +4,7 @@ import { variablesStyle } from "./variablesStyle";
 
 export const HeaderStyle = styled.header`
     padding: 34px 0;
-
+    
     ${MarginCapsule}{
         div{
             display: flex;
@@ -37,5 +37,4 @@ export const HeaderStyle = styled.header`
             }
         }
     }
-    
 `;
