@@ -9,7 +9,7 @@ export const HeaderStyle = styled.header`
         div{
             display: flex;
             align-items: center;
-            gap: 20px;
+            gap: 8px;
 
             .logoFylo svg{
                 display: inline-block;

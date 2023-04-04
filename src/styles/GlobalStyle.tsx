@@ -23,20 +23,21 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     h1{
-        font-size: 1.8em;
+        font-size: clamp(1.8em, 6vw, 2.1em);
     }
     h2{
-        font-size: 1.5em;
+        font-size: clamp(1.6em, 6vw, 1.9em);
     }
     p{
-        font-size: 1.1em;
+        font-size: clamp(1em, 6vw, 1.1em);
     }
     h1,h2,p{
         color: ${variablesStyle.colors.darkenBlue};
     }
 
     .imgPersons{
-        max-width: 500px;
+        max-width: 566px;
+        max-height: 406px;
         margin: 0 auto;
     }
 `;

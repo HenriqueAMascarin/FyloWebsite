@@ -4,7 +4,7 @@ import { variablesStyle } from "./variablesStyle";
 
 export const PrincipalSectionStyle = styled.section`
     padding: 60px 0 120px;
-
+    
     ${MarginCapsule}{
 
         .flexPrincipal{
@@ -17,7 +17,7 @@ export const PrincipalSectionStyle = styled.section`
                 max-width: ${variablesStyle.others.maxWidthText};
             }
 
-            div{
+            form{
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
@@ -25,20 +25,20 @@ export const PrincipalSectionStyle = styled.section`
                 margin: 0 auto;
 
                 button, input[type="email"]{
-                    padding: 16px 20px;
+                    padding: 12px 16px;
                     border-radius: 5px;
+                    font-size: 0.9em;
+                    box-shadow: ${variablesStyle.others.boxShadowButton};
                 }
                 input[type="email"]{
-                    font-size: 1.1em;
                     border: 1px solid ${variablesStyle.colors.darkenBlue};
                 }
                 button{
                     border: none;
                     background-color: ${variablesStyle.colors.blue};
                     color: ${variablesStyle.colors.white};
-                    font-size: 1.2em;
                     font-weight: bold;
-                    box-shadow: ${variablesStyle.others.boxShadowButton};
+                    cursor: pointer;
                 }
             }
         }
@@ -53,9 +53,39 @@ export const PrincipalSectionStyle = styled.section`
                 align-items: center;
                 justify-content: center;
 
-                .imgPersons, h1{
+                .imgPersons{
+                    margin: 0 0 0 auto;
+                }
+                h1{
                     margin: 0;
                 }
+
+                article{
+                
+                    h1, p{
+                        text-align: start;
+                        max-width: 550px;
+                        margin-left: 0;
+                    }
+
+                    form{
+                        margin: 0;
+                        flex-flow: row wrap;
+                        width: 100%;
+                        justify-content: center;
+                        max-width: none;
+                        flex-direction: row;
+
+                        input{
+                            flex-grow: 1;
+                        }
+                        button{
+                            width: 30%;
+                        }
+                    }
+
+                }
+                
             }
         }
     }
