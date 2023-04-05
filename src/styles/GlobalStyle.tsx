@@ -9,6 +9,13 @@ export const GlobalStyle = createGlobalStyle`
         text-align: center;
         font-family: sans-serif;
     }
+    #root{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
     *{
         margin: 0;
         padding: 0;
