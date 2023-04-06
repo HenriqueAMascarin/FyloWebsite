@@ -12,7 +12,7 @@ export default function PrincipalSection() {
                         <h1>All your files in one secure location, accessible anywhere.</h1>
                         <p>Fylo stores your most important files in one secure location. Acess them wherever you need, share and collaborate with friends, family, and co-workers.</p>
 
-                        <form method='POST' action=''>
+                        <form>
                             <label htmlFor="email">
                                 <input type="email" placeholder="Enter your email..." name='email' required/>
                                 <p>Please check your email</p>
