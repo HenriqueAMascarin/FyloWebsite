@@ -3,7 +3,7 @@ import { MarginCapsule } from "./GlobalStyle";
 import { variablesStyle } from "./variablesStyle";
 
 export const EarlyStyle = styled.section`
-    background-color: ${variablesStyle.colors.LightenBlue};
+    background-color: ${variablesStyle.colors.purpleBlue};
     padding: 50px 0;
     
     ${MarginCapsule}{
@@ -28,12 +28,12 @@ export const EarlyStyle = styled.section`
                 display: flex;
                 align-items: center;
                 flex-direction: column;
-                gap: 14px;
+                gap: 30px;
                 max-width: 300px;
                 margin: 0 auto;
 
-                input, button{
-                    width: clamp(100px, 70vw, 300px);
+                input[type="email"], button{
+                    width: 100%;
                     padding: 14px 0;
                     border-radius: 2px;
                     font-size: 0.9em;
@@ -41,14 +41,40 @@ export const EarlyStyle = styled.section`
                     box-shadow: ${variablesStyle.others.boxShadowButton};
                 }
 
-                input{
-                    padding-left: 10px;
+                label{
+                    width: 100%;
+                    input[type="email"]{
+                        border: 1px solid ${variablesStyle.colors.darkenBlue};
+                        padding-left: 10px;
+                    }
+                    p{
+                        display: none;
+                        position: absolute;
+                        font-size: clamp(0.6em, 4vw, 0.7em);
+                        margin: 4px 0 0;
+                        color: red;
+                    }
                 }
+                :has(button:hover) label{
+                    input[type="email"]:invalid{
+                        border: 1px solid red;
+                        outline: none;
+                    }
+                    :has(input[type="email"]:invalid) p{
+                        display: block;
+                    }
+                }
+
                 button{
                     background-color: ${variablesStyle.colors.blue};
                     color: white;
                     font-weight: bold;
                     cursor: pointer;
+                    transition: .1s all ease-in-out;
+
+                    &:hover{
+                        background-color: ${variablesStyle.colors.lightenBlue};
+                    }
                 }
             }
         }
@@ -76,7 +102,7 @@ export const EarlyStyle = styled.section`
                     max-width: none;
                     flex-basis: 600px; // input text max-width
 
-                    input{
+                    label{
                         max-width: 600px;
                         width: 100%;
                     }

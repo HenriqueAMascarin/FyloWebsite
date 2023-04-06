@@ -5,7 +5,8 @@ export const variablesStyle =
         gray: '#F9F8FE',
         darkenBlue: '#050236',
         blue: '#2F65F9',
-        LightenBlue: '#575988',
+        lightenBlue:'#5580f7',
+        purpleBlue: '#575988',
     },
     others:{
         boxShadowButton: 'rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px',

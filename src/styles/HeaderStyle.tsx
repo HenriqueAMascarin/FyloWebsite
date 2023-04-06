@@ -9,7 +9,7 @@ export const HeaderStyle = styled.header`
     margin-bottom: 60px;
     
     ${MarginCapsule}{
-        div{
+        .flexHeader{
             display: flex;
             align-items: center;
             gap: 8px;
@@ -27,9 +27,9 @@ export const HeaderStyle = styled.header`
                 top: 100%;
                 width: 100%;
                 transition: .4s all ease-in-out;
-                z-index: -1;
-                top: -5%;
                 opacity: 0;
+                z-index: -1;
+                top: -10px;
                 
                 &.active{
                     opacity: 1;
@@ -48,6 +48,12 @@ export const HeaderStyle = styled.header`
                             font-size: clamp(1.1em, 7vw, 1.15em);
                             display: block;
                             padding: 4px 0;
+
+                            transition: .1s all ease-in-out;
+
+                            &:hover{
+                                color: ${variablesStyle.colors.lightenBlue};
+                            }
                         }
                     }   
                 }
@@ -72,6 +78,37 @@ export const HeaderStyle = styled.header`
                 &.active{
                     span{
                         background-color: ${variablesStyle.colors.blue};
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: ${variablesStyle.others.screen}){
+    
+        ${MarginCapsule}{
+            .flexHeader{
+                .hamburguerMenu{
+                    display: none;
+                }
+
+                .navHeader{
+                    position: relative;
+                    z-index: 0;
+                    top: 0;
+                    opacity: 1;
+
+                    &.active{
+                        top: 0;
+                    }
+
+                    ul{
+                        flex-direction: row;
+                        justify-content: flex-end;
+
+                        li a{
+                            padding: 0 8px;
+                        }
                     }
                 }
             }

@@ -20,25 +20,52 @@ export const PrincipalSectionStyle = styled.section`
             form{
                 display: flex;
                 flex-direction: column;
-                gap: 20px;
+                gap: 30px;
                 max-width: 300px;
                 margin: 0 auto;
 
-                button, input[type="email"]{
+                button, label input[type="email"]{
                     padding: 12px 16px;
-                    border-radius: 5px;
+                    border-radius: 2px;
                     font-size: 0.9em;
                     box-shadow: ${variablesStyle.others.boxShadowButton};
+                    width: 100%;
                 }
-                input[type="email"]{
-                    border: 1px solid ${variablesStyle.colors.darkenBlue};
+                
+                label{
+                    input[type="email"]{
+                        border: 1px solid ${variablesStyle.colors.darkenBlue};
+                    }
+                    p{
+                        display: none;
+                        position: absolute;
+                        font-size: clamp(0.6em, 4vw, 0.7em);
+                        margin: 4px 0 0;
+                        color: red;
+                    }
+                    
                 }
+                :has(button:hover) label{
+                    input[type="email"]:invalid{
+                        border: 1px solid red;
+                        outline: none;
+                    }
+                    :has(input[type="email"]:invalid) p{
+                        display: block;
+                    }
+                }
+
                 button{
                     border: none;
                     background-color: ${variablesStyle.colors.blue};
                     color: ${variablesStyle.colors.white};
                     font-weight: bold;
                     cursor: pointer;
+                    transition: .1s all ease-in-out;
+
+                    &:hover{
+                        background-color: ${variablesStyle.colors.lightenBlue};
+                    }
                 }
             }
         }
@@ -76,7 +103,7 @@ export const PrincipalSectionStyle = styled.section`
                         max-width: none;
                         flex-direction: row;
 
-                        input{
+                        label{
                             flex-grow: 1;
                         }
                         button{
