@@ -24,7 +24,7 @@ export const PrincipalSectionStyle = styled.section`
                 max-width: 300px;
                 margin: 0 auto;
 
-                button, label input[type="email"]{
+                button, label input{
                     padding: 12px 16px;
                     border-radius: 2px;
                     font-size: 0.9em;
@@ -33,7 +33,7 @@ export const PrincipalSectionStyle = styled.section`
                 }
                 
                 label{
-                    input[type="email"]{
+                    input{
                         border: 1px solid ${variablesStyle.colors.darkenBlue};
                     }
                     p{
@@ -46,11 +46,11 @@ export const PrincipalSectionStyle = styled.section`
                     
                 }
                 :has(button:hover) label{
-                    input[type="email"]:invalid{
+                    input:invalid{
                         border: 1px solid red;
                         outline: none;
                     }
-                    :has(input[type="email"]:invalid) p{
+                    :has(input:invalid) p{
                         display: block;
                     }
                 }

@@ -32,7 +32,7 @@ export const EarlyStyle = styled.section`
                 max-width: 300px;
                 margin: 0 auto;
 
-                input[type="email"], button{
+                input, button{
                     width: 100%;
                     padding: 14px 0;
                     border-radius: 2px;
@@ -43,7 +43,7 @@ export const EarlyStyle = styled.section`
 
                 label{
                     width: 100%;
-                    input[type="email"]{
+                    input{
                         border: 1px solid ${variablesStyle.colors.darkenBlue};
                         padding-left: 10px;
                     }
@@ -56,11 +56,11 @@ export const EarlyStyle = styled.section`
                     }
                 }
                 :has(button:hover) label{
-                    input[type="email"]:invalid{
+                    input:invalid{
                         border: 1px solid red;
                         outline: none;
                     }
-                    :has(input[type="email"]:invalid) p{
+                    :has(input:invalid) p{
                         display: block;
                     }
                 }
