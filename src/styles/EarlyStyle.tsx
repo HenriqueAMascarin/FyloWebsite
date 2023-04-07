@@ -8,7 +8,7 @@ export const EarlyStyle = styled.section`
     
     ${MarginCapsule}{
         .flexEarly{
-            .earlyArticle{
+            .earlyDivInfo{
                 max-width: 340px;
                 margin: 0 auto;
 
@@ -41,8 +41,9 @@ export const EarlyStyle = styled.section`
                     box-shadow: ${variablesStyle.others.boxShadowButton};
                 }
 
-                label{
+                div{
                     width: 100%;
+
                     input{
                         border: 1px solid ${variablesStyle.colors.darkenBlue};
                         padding-left: 10px;
@@ -55,7 +56,7 @@ export const EarlyStyle = styled.section`
                         color: red;
                     }
                 }
-                :has(button:hover) label{
+                :has(button:hover) div{
                     input:invalid{
                         border: 1px solid red;
                         outline: none;
@@ -89,7 +90,7 @@ export const EarlyStyle = styled.section`
                 justify-content: center;
                 align-items: center;
                 
-                .earlyArticle{
+                .earlyDivInfo{
                     margin: 0;
                     max-width: 420px;
                     text-align: start;
@@ -102,7 +103,7 @@ export const EarlyStyle = styled.section`
                     max-width: none;
                     flex-basis: 600px; // input text max-width
 
-                    label{
+                    div{
                         max-width: 600px;
                         width: 100%;
                     }

@@ -149,12 +149,14 @@ export const ProductiveSectionStyle = styled.section`
                     flex-direction: row-reverse;
 
                     .articlesDiv{
+                        text-align: start;
 
+                        h2{
+                            margin-top: 0;
+                        }
+                        
                         .articleInfo{
-                            text-align: start;
-                            h2{
-                                margin-top: 0;
-                            }
+                            
                             p{
                                 margin-left: 0;
                             }

@@ -24,7 +24,7 @@ export const PrincipalSectionStyle = styled.section`
                 max-width: 300px;
                 margin: 0 auto;
 
-                button, label input{
+                button, div input{
                     padding: 12px 16px;
                     border-radius: 2px;
                     font-size: 0.9em;
@@ -32,7 +32,7 @@ export const PrincipalSectionStyle = styled.section`
                     width: 100%;
                 }
                 
-                label{
+                div{
                     input{
                         border: 1px solid ${variablesStyle.colors.darkenBlue};
                     }
@@ -45,7 +45,7 @@ export const PrincipalSectionStyle = styled.section`
                     }
                     
                 }
-                :has(button:hover) label{
+                :has(button:hover) div{
                     input:invalid{
                         border: 1px solid red;
                         outline: none;
@@ -103,7 +103,7 @@ export const PrincipalSectionStyle = styled.section`
                         max-width: none;
                         flex-direction: row;
 
-                        label{
+                        div{
                             flex-grow: 1;
                         }
                         button{
