@@ -12,22 +12,22 @@ export default function ProductiveSection() {
                         <img src={chattingPersons} alt="Chatting Persons image" width="1077" height="813" className='imgPersons' />
 
                         <div className='articlesDiv'>
-                        <h2>Stay productive, wherever  you are</h2>
-                            <article className='articleInfo'>
 
+                            <div className='divInfo'>
+                                <h2>Stay productive, wherever  you are</h2>
                                 <p>Never let location be an issue when accessing your files. Fylo has covered for all of your file storage needs.</p>
                                 <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
 
                                 <div>
                                     <a href="#">See how Fylo works</a>
                                 </div>
-                            </article>
+                            </div>
 
                             <article className='articleCeo'>
                                 <p className='infoFylo'>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
 
                                 <div className='divCeo'>
-                                    <img src={avatar} alt="Kyle Burton photo" width="125" height="125"/>
+                                    <img src={avatar} alt="Kyle Burton photo" width="125" height="125" />
 
                                     <div>
                                         <h3>Kyle Burton</h3>

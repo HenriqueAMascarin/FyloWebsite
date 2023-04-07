@@ -35,7 +35,7 @@ export const ProductiveSectionStyle = styled.section`
                 margin: 0 auto;
             }
             
-            .articleInfo{
+            .divInfo{
                 p:first-of-type{
                     margin-bottom: 20px;
                 }
@@ -154,8 +154,8 @@ export const ProductiveSectionStyle = styled.section`
                         h2{
                             margin-top: 0;
                         }
-                        
-                        .articleInfo{
+
+                        .divInfo{
                             
                             p{
                                 margin-left: 0;
