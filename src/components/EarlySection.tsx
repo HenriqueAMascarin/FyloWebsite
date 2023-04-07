@@ -3,7 +3,7 @@ import { EarlyStyle } from "../styles/EarlyStyle";
 
 export default function EarlySection() {
     return (
-        <EarlyStyle>
+        <EarlyStyle id="signIn">
             <MarginCapsule>
                 <div className="flexEarly">
                     <article className="earlyArticle">

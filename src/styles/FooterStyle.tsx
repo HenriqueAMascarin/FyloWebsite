@@ -16,6 +16,11 @@ export const FooterStyle = styled.footer`
 
         a{
             color: ${variablesStyle.colors.white};
+            transition: .1s all ease-in-out;
+
+            &:hover{
+                color: ${variablesStyle.colors.lightenBlue};
+            }
         }
     }
 
@@ -50,6 +55,7 @@ export const FooterStyle = styled.footer`
 
                 img{
                     width: 25px;
+                    height: auto;
                     margin-right: 24px;
                 }
             }
@@ -65,7 +71,11 @@ export const FooterStyle = styled.footer`
                     li a{
                         text-decoration: none;
                         color: ${variablesStyle.colors.white};
+                        transition: .1s all ease-in-out;
 
+                        &:hover{
+                            color: ${variablesStyle.colors.lightenBlue};
+                        }
                     }
                 }
             }
@@ -86,7 +96,16 @@ export const FooterStyle = styled.footer`
                     height: 32px;
                     border: 1px solid ${variablesStyle.colors.white};
                     border-radius: 100%;
-                    
+                    transition: .1s all ease-in-out;
+
+                    &:hover{
+                        border: 1px solid ${variablesStyle.colors.lightenBlue};
+
+                        path{
+                            fill: ${variablesStyle.colors.lightenBlue};
+                        }
+                    }
+
                     svg{
                         display: block;
                         width: 18px;
@@ -94,6 +113,7 @@ export const FooterStyle = styled.footer`
 
                         path{
                             fill: ${variablesStyle.colors.white};
+                            transition: .1s all ease-in-out;
                         }
                     }
                 }

@@ -48,7 +48,6 @@ export const HeaderStyle = styled.header`
                             font-size: clamp(1.1em, 7vw, 1.15em);
                             display: block;
                             padding: 4px 0;
-
                             transition: .1s all ease-in-out;
 
                             &:hover{

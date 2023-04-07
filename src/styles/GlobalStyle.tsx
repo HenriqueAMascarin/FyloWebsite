@@ -45,6 +45,7 @@ export const GlobalStyle = createGlobalStyle`
     .imgPersons{
         max-width: 566px;
         max-height: 406px;
+        height: auto;
         margin: 0 auto;
     }
 `;

@@ -5,11 +5,11 @@ import { ProductiveSectionStyle } from '../styles/ProductiveSectionStyle';
 
 export default function ProductiveSection() {
     return (
-        <ProductiveSectionStyle>
+        <ProductiveSectionStyle id='team'>
             <div className='backgroundProductive'>
                 <MarginCapsule>
                     <div className='flexProductive'>
-                        <img src={chattingPersons} alt="Chatting Persons image" className='imgPersons' />
+                        <img src={chattingPersons} alt="Chatting Persons image" width="1077.87" height="813.02" className='imgPersons' />
 
                         <div className='articlesDiv'>
                             <article className='articleInfo'>
@@ -27,7 +27,7 @@ export default function ProductiveSection() {
                                 <p className='infoFylo'>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
 
                                 <div className='divCeo'>
-                                    <img src={avatar} alt="Kyle Burton photo" />
+                                    <img src={avatar} alt="Kyle Burton photo" width="125" height="125"/>
 
                                     <div>
                                         <h3>Kyle Burton</h3>

@@ -16,11 +16,11 @@ export default function Footer() {
 
                         <div>
                             <div className="contactsFooter">
-                                <img src={phoneIcon} alt="Phone icon" />
+                                <img src={phoneIcon} alt="Phone icon" width="18" height="18"/>
                                 <p>Phone: +1-543-123-4567</p>
                             </div>
                             <div className="contactsFooter">
-                                <img src={email} alt="Email icon" />
+                                <img src={email} alt="Email icon" width="20" height="16"/>
                                 <p>example@fylo.com</p>
                             </div>
                         </div>

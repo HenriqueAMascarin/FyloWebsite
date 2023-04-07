@@ -25,9 +25,9 @@ export default function Header() {
 
                     <nav className="navHeader">
                         <ul>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Sign in</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#signIn">Sign in</a></li>
                         </ul>
                     </nav>
 
