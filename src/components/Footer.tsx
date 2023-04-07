@@ -68,7 +68,7 @@ export default function Footer() {
 
                     </div>
                 </div>
-                <p>Challenge by <a href="https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5" target='_blank'>Frontend Mentor</a>. Coded by <a href="https://github.com/LuckTheGamers" target='_blank'>Henrique de Albuquerque Mascarin</a>.</p>
+                <p>Challenge by <a href="https://www.frontendmentor.io/solutions/fylo-landing-page-react-typescript-styledcomponents-LU4Ev7F95G" target='_blank'>Frontend Mentor</a>. Coded by <a href="https://github.com/LuckTheGamers" target='_blank'>Henrique de Albuquerque Mascarin</a>.</p>
             </MarginCapsule>
         </FooterStyle>
     )

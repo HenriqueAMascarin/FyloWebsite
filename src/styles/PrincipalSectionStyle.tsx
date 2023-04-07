@@ -87,7 +87,7 @@ export const PrincipalSectionStyle = styled.section`
                     margin: 0;
                 }
 
-                article{
+                .principalDivInfo{
                 
                     h1, p{
                         text-align: start;

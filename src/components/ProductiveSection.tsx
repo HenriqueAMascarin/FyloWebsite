@@ -9,7 +9,7 @@ export default function ProductiveSection() {
             <div className='backgroundProductive'>
                 <MarginCapsule>
                     <div className='flexProductive'>
-                        <img src={chattingPersons} alt="Chatting Persons image" width="1077.87" height="813.02" className='imgPersons' />
+                        <img src={chattingPersons} alt="Chatting Persons image" width="1077" height="813" className='imgPersons' />
 
                         <div className='articlesDiv'>
                             <article className='articleInfo'>
