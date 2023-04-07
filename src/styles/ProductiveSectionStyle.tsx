@@ -45,13 +45,7 @@ export const ProductiveSectionStyle = styled.section`
                     margin: 30px auto 50px;
 
                     &:hover{
-                        &::after{
-                            background-color: #6cd7c5;
-                        }
-
-                        a{
-                            color: #6cd7c5;
-                        }
+                        filter: brightness(1.3);
                     }
 
                     &::after{

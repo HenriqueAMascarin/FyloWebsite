@@ -1,6 +1,6 @@
 # FyloWebsite
 
-Desafio de página de negócios da frontend Mentor, com a adição do hamburguer menu que o desafio não pedia!
+Desafio de página de negócios da frontend Mentor, com a adição do hamburguer menu que o desafio não requisitava.
 
 ## Conteúdos
 
