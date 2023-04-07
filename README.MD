@@ -6,10 +6,10 @@ Desafio de página de negócios da frontend Mentor, com a adição do hamburguer
 
 - [Sobre](#Sobre)
   - [Screenshot](#screenshot)
-  - [O que aprendi?](#O-que-aprendi?)
-  - [O que busco no futuro?](#O-que-busco-no-futuro?)
+  - [O que aprendi?](#Aprendizado)
+  - [O que busco no futuro?](#Futuro)
   - [Links](#links)
-  - [Tecnologias usadas](#Tecnologias-usadas)
+  - [Tecnologias usadas](#Tecnologias)
 
 ## Sobre
 
@@ -17,11 +17,11 @@ Desafio de página de negócios da frontend Mentor, com a adição do hamburguer
 
 ![](/src/assets/images/screenshot.jpg)
 
-### O que aprendi?
+### Aprendizado
 
  Melhorei em relação ao css, também em semântica de HTML e desenvolvi a minha experiência nas tecnologias usadas.
 
-### O que busco no futuro?
+### Futuro
 
  Busco no futuro aperfeiçoar minhas habilidades, conhecer novas tecnologias e conseguir a tão sonhada vaga no mercado!
 
@@ -31,7 +31,7 @@ Desafio de página de negócios da frontend Mentor, com a adição do hamburguer
 
 - Desafio frontend Mentor: [clique aqui](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5).
 
-### Tecnologias usadas
+### Tecnologias
 
 - Vite.
 - React Js.
