@@ -31,7 +31,7 @@ export default function Header() {
                         </ul>
                     </nav>
 
-                    <button className="hamburguerMenu" onClick={menuToggle}>
+                    <button className="hamburguerMenu" onClick={menuToggle} aria-label="Button to open menu">
                         <span></span>
                         <span></span>
                         <span></span>
