@@ -29,7 +29,7 @@ Desafio de página de negócios da frontend Mentor, com a adição do hamburguer
 
 - URL do site: [clique aqui](https://fylo-website-ashen.vercel.app).
 
-- Desafio frontend Mentor: [clique aqui](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5).
+- Desafio frontend Mentor: [clique aqui](https://www.frontendmentor.io/solutions/fylo-landing-page-react-typescript-styledcomponents-LU4Ev7F95G).
 
 ### Tecnologias
 
